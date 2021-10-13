@@ -18,7 +18,7 @@ n = notify2.Notification(None, icon = ICON_PATH)
 n.set_urgency(notify2.URGENCY_NORMAL) 
   
 # set timeout for a notification 
-n.set_timeout(10000) 
+n.set_timeout(5000) 
   
 for newsitem in newsitems: 
   
