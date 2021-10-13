@@ -53,7 +53,7 @@ menubar.add_cascade(label="Help",menu=subMenu)
 subMenu.add_command(label="About Us", command= about_us)
 
 root.geometry('300x300')
-root.title("SkyBeat")
+root.title("BeatsByAnt")
 root.iconbitmap(r'C:/Users/antar/Downloads/hnet.com-image.ico')
 
 leftframe= Frame(root)
